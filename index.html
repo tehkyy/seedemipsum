@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cornem Ipsum Generator</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="./js/cornem-ipsum.js"></script>
+    <script src="./js/ui.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>Cornem Ipsum Generator</h1>
+    <div class="ipsum-container elevation-1">
+        <div class="flex-col count-inputs">
+            <input style="width: 50px;" type="number" id="numGenerated" value="3" min="1" max="10">
+
+            <select id="generateBy" style="width: 150px;">
+                <option value="paragraphs">Paragraphs</option>
+                <option value="sentences">Sentences</option>
+                <option value="words">Words</option>
+            </select>
+
+            <div class="flex-row">
+                <div class="form-group hidden">
+                    <label class="container" for="exactCharCount">
+                        Exact Character Count
+                        <input type="checkbox" id="exactCharCount">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+    
+                <div class="toggle-button-group" aria-label="options">
+                    <button class="toggle-button" data-value="startWithCornem" aria-label="Start With Cornem Ipsum">
+                        Start With Cornem ipsum
+                    </button>
+                    <button class="toggle-button" data-value="includeLorem" aria-label="Include Lorem Ipsum">
+                        Include Latin
+                    </button>
+                </div>
+                
+            </div>
+            <button onclick="generateCornemIpsum()">Generate</button>
+        </div>
+
+        <div class="form-group hidden" id="exactCharGroup">
+            <label for="charCount">Exact Character Count:</label>
+            <input type="number" id="charCount" value="100" min="1" max="1000">
+        </div>
+
+        <div class="copy-button-wrapper">
+            <button class="copy-button" onclick="copyToClipboard()">Copy <img src="./assets/content_copy_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" /></button>
+        </div>
+
+        <div class="result" id="cornemIpsumResult"></div>
+
+    </div>
+
+</body>
+
+</html>
