@@ -4,3 +4,8 @@ deployment:
     - export DEPLOYPATH=/home3/accomplice/seedemipsum.com/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp index.css $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R soy $DEPLOYPATH
+
+
