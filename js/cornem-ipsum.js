@@ -1,12 +1,13 @@
 const cornemIpsumWords = [
-    "Yield", "potential", "agronomy", "trait", "package", "silage", "corn", "planter", "hybrid", "vigor",
-    "Row", "spacing", "combines", "seed", "selection", "rooted", "innovation", "Field", "conditions",
-    "drive", "performance", "metrics", "Stalk", "strength", "tassel", "rust", "disease", "resistance",
-    "align", "season-long", "protection", "Soil", "fertility", "enhances", "root", "development",
-    "ensuring", "top-tier", "Nitrogen", "efficiency", "meets", "DEKALB®", "standard", "emergence",
-    "rates", "push", "boundaries", "Precision", "planting", "in-season", "management", "harvest",
-    "timing", "optimize", "results", "brand", "is", "for", "those", "who", "never", "settle"
+    "yield", "potential", "agronomy", "trait", "package", "silage", "corn", "planter", "hybrid", "vigor",
+    "row", "spacing", "combines", "seed", "selection", "rooted", "innovation", "Field", "conditions", "commit",
+    "drive", "performance", "metrics", "stalk", "strength", "tassel", "rust", "disease", "resistance", "potential",
+    "align", "season-long", "protection", "soil", "fertility", "enhances", "root", "development", "raise",
+    "ensuring", "top-tier", "nitrogen", "efficiency", "meets", "DEKALB®", "standard", "emergence", "the",
+    "rates", "push", "boundaries", "precision", "planting", "in-season", "management", "harvest", "bar",
+    "timing", "optimize", "results", "brand", "is", "for", "those", "who", "never", "settle", "is", "always", "more"
 ];
+
 
 const loremIpsumWords = [
     "Lorem", "ipsum", "dolor", "sit", "amet", "consectetur", "adipiscing", "elit", "sed", "do",
@@ -15,6 +16,7 @@ const loremIpsumWords = [
     "aliquip", "ex", "ea", "commodo", "consequat", "Duis", "aute", "irure", "dolor", "in", "reprehenderit",
     "in", "voluptate", "velit", "esse", "cillum", "dolore", "eu", "fugiat", "nulla", "pariatur"
 ];
+
 
 
 function generateCornemIpsum() {

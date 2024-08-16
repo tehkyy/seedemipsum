@@ -7,5 +7,3 @@ deployment:
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R js $DEPLOYPATH
     - /bin/cp -R soy $DEPLOYPATH
-
-
